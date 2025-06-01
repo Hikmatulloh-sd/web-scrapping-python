@@ -35,6 +35,12 @@ response = requests.get('https://www.sulpak.kg/f/noutbuki', params=params, heade
 print(response.status_code)
 
 
+# 🍪 Работа с cookies
+"""
+Если сайт использует куки (например, для входа в аккаунт), 
+ты можешь передать их вручную:
+"""
+
 # Создаём объект сессии
 session = requests.Session()
 
